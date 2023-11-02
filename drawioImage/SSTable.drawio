@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-10-25T15:09:48.672Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="-kQlESW_fZpyiCdG8QYa" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-02T15:38:22.719Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="J5aaEIX5NTDpi969RR0j" version="22.0.8" type="github">
   <diagram name="SSTable" id="wfENI51AvKtfhmlLP-qF">
-    <mxGraphModel dx="1026" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1026" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ckbG8JrqHdRWSvBopIXW-3" value="&lt;font color=&quot;#3399ff&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Memory&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="170" width="270" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="ckbG8JrqHdRWSvBopIXW-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Hash Table per segment&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="ckbG8JrqHdRWSvBopIXW-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Hash Table per segment&lt;br&gt;Finite State Automation&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="69.99999999999997" y="190" width="192.37" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ckbG8JrqHdRWSvBopIXW-4" value="&lt;font color=&quot;#3399ff&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Disk&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -33,17 +33,17 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EHLzIcHKhoBBy-809MzX-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Memtable&lt;br&gt;(Balanced Tree)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EHLzIcHKhoBBy-809MzX-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Memtable&lt;br&gt;(Balanced Tree)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="115" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EHLzIcHKhoBBy-809MzX-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.009;entryY=0.772;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EHLzIcHKhoBBy-809MzX-1" target="ckbG8JrqHdRWSvBopIXW-4">
+        <mxCell id="EHLzIcHKhoBBy-809MzX-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.009;entryY=0.772;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="EHLzIcHKhoBBy-809MzX-1" target="ckbG8JrqHdRWSvBopIXW-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="175" y="397" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EHLzIcHKhoBBy-809MzX-3" value="flush out" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EHLzIcHKhoBBy-809MzX-2">
+        <mxCell id="EHLzIcHKhoBBy-809MzX-3" value="flush out" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="EHLzIcHKhoBBy-809MzX-2" vertex="1" connectable="0">
           <mxGeometry x="-0.2179" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
